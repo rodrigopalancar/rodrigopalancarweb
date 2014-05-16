@@ -1,0 +1,219 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.5px;
+	text-align: justify;
+}
+
+div.content
+{
+	min-height: 700px;
+}
+
+/* HEADER */
+
+div.black-line
+{
+	width: 100%;
+	background-color: #000000;
+	height: 4px;
+}
+
+header{
+  width: 100%;
+  min-height: 104px;
+  background: #ffffff;
+  z-index: 999;
+}
+
+div.header-wrapper
+{
+	margin: 32px auto;
+}
+
+ul.main-menu
+{
+	margin-top: 5px;
+	font-size: 14px;
+	list-style: none;
+}
+
+div.map 
+{
+	padding: 30px;
+}
+
+li.menu-item
+{
+	display: inline-block;
+	margin-right: 40px;
+}
+
+li.menu-item a
+{
+	color: #666666;
+	letter-spacing: 0.5px;
+}
+
+nav.main-menu-container
+{
+	float: right;
+}
+
+/* CONTENT */
+
+div.carousel-container
+{
+	margin: 50px auto 20px auto;
+}
+
+div.page-title
+{
+	background: url("images/title-background.jpg") no-repeat center 0;
+	background-size: cover;
+	min-height: 135px;
+}
+
+h1.title 
+{
+	display: inline-block;
+	float: left;
+	font-size: 42px;
+	line-height: 44px;
+	margin: 0;
+	padding: 42px 20px 42px 0;
+	color: #FFFFFF;
+}
+
+h2.information-title
+{
+	line-height: 30px;
+	margin: 15px;
+	font-size: 25px;
+}
+
+h2.works
+{
+	margin-bottom: 20px;
+}
+
+div.works
+{
+	margin-bottom: 50px;
+}
+
+
+section.information-title-container
+{
+	margin-bottom: 15px;
+}
+
+section.information-title-container
+{
+	/*color: #738187;*/
+	font-size: 13px;
+	background: url("images/title-background.jpg") no-repeat center 0;
+	background-size: cover;
+	color: white;
+	padding: 5px 5px 5px 10px;
+	margin-top: 20px;
+}
+
+article.information-text-container
+{
+	margin-bottom: 30px;
+}
+
+section.social
+{
+	border-bottom: 1px solid rgba(89, 109, 117, 0.4);
+	border-top: 1px solid rgba(89, 109, 117, 0.4);
+	line-height: 30px;
+	padding: 2px 0;
+	margin: 15px auto 20px auto;
+}
+
+form
+{
+	margin-bottom: 30px;
+}
+
+div.work-title h5
+{
+	text-align: center;
+}
+
+div.work-description
+{
+	margin-top: 20px;
+}
+
+div#accordion
+{
+	margin-top: 50px;
+}
+
+
+/*FOOTER*/
+
+div.pre-footer
+{
+	background-color: #252728;
+	padding-bottom: 10px;
+}
+
+footer
+{
+	background-color: #151717;
+	min-height: 75px;
+}
+
+div.pre-footer p
+{
+	color: #B7B7B7;
+	font-size: 12px;
+}
+
+h3.footer{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+/*MISC*/
+
+a.left.carousel-control, a.right.carousel-control
+{
+	background-image: none;
+}
+
+h1,h2,h2,h4,h5,h6
+{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-align: left;
+}
+
+h2
+{
+	font-size: 20px;
+}
+
+h5
+{
+	color: #596D75;
+	font-size: 16px;
+}
+
+a.share img 
+{
+	width: 30px;
+	height: 30px;
+}
+
+a.share
+{
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
